@@ -1,0 +1,33 @@
+#p1 {color: red;}
+.container {color: blue;} /*container는 클래스명*/
+.text-center {text-align: center;}
+.text-large {font-size: large;}
+.text-red {color: red;}
+
+a[href] {color: blue;} /* a 요소 중 href를 갖는 모든 요소 */
+a[target="_blank"] {color: aqua;}
+
+a:hover {color:red;}
+input:focus {background-color: yellow;}
+
+/* a 요소가 방문하지 않은 링크일 때 */
+a:link { color: orange; }
+
+/* a 요소가 방문한 링크일 때 */
+a:visited { color: green; }
+
+/* a 요소에 마우스가 올라와 있을 때 */
+a:hover { font-weight: bold; }
+
+/* a 요소가 클릭된 상태일 때 */
+a:active { color: blue; }
+
+/* text input 요소와 password input 요소에 포커스가 들어와 있을 때 */
+input[type=text]:focus,
+input[type=password]:focus {
+  color: red;
+}
+
+.italic {font-style: italic;}
+.light {font-weight: lighter;}
+.thick {font-weight: bold;}
